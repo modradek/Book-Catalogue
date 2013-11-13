@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Book Catalogue</string>
-    <string name="system_app_name">Book Catalogue</string>
-    <string name="menu_insert">Add Book</string>
-    <string name="menu_delete">Delete Book</string>
-    <string name="author">Author</string>
-    <string name="title">Title</string>
+    <string name="app_name">Catálogo de Libros</string>
+    <string name="system_app_name">Catálogo de Libros</string>
+    <string name="menu_insert">Agregar Libro</string>
+    <string name="menu_delete">Borrar Libro</string>
+    <string name="author">Autor</string>
+    <string name="title">Título</string>
     <string name="isbn">ISBN</string>
-    <string name="publisher">Publisher</string>
-    <string name="date_published">Date Published</string>
-    <string name="rating">Rating</string>
+    <string name="publisher">Editorial</string>
+    <string name="date_published">Fecha de Publicación</string>
+    <string name="rating">Calificación</string>
     <string name="bookshelf">Bookshelf</string>
-    <string name="read">Have you read this book?</string>
-    <string name="series">Series</string>
-    <string name="pages">Pages</string>
-    <string name="confirm_add">Add Book</string>
-    <string name="confirm_update">Update</string>
+    <string name="read">¿Ya has leído este libro?</string>
+    <string name="series">Serie</string>
+    <string name="pages">Páginas</string>
+    <string name="confirm_add">Agregar Libro</string>
+    <string name="confirm_update">Actualizar</string>
     <string name="nobooks">There are no books in this Bookshelf. Please add some using the menu at the bottom of this screen.</string>
     <string name="menu_sort_by_author_expanded">Expand All</string>
     <string name="menu_sort_by">Sort By</string>
     <string name="menu_sort_by_author_collapsed">Collapse All</string>
-    <string name="sort_title">Book Catalogue: by Title</string>
-    <string name="edit_title">Book Catalogue: Edit Book</string>
-    <string name="menu_insert_isbn">Add by ISBN</string>
+    <string name="sort_title">Book Catalogue: por Título</string>
+    <string name="edit_title">Book Catalogue: Editar Libro</string>
+    <string name="menu_insert_isbn">Agregar con ISBN</string>
     <string name="menu_insert_barcode">Add by Scanned Barcode</string>
-    <string name="search">Search</string>
-    <string name="cancel">Cancel</string>
-    <string name="confirm_save">Save Book</string>
+    <string name="search">Buscar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="confirm_save">Guardar Libro</string>
     <string name="nobookshelves">You have not created any bookshelves yet. Please add some using the menu at the bottom of this screen.</string>
     <string name="menu_insert_bs">Create Bookshelf</string>
     <string name="confirm_add_bs">Add Bookshelf</string>
@@ -36,98 +36,98 @@
     <string name="menu_delete_bs">Delete Bookshelf</string>
     <string name="delete_1st_bs">Cannot Delete the 1st Bookshelf</string>
     <string name="bookshelf_label">Bookshelf: </string>
-    <string name="all_books">All Books</string>
-    <string name="isbn_found">ISBN Scanned. Searching Internet.</string>
-    <string name="title_isbn_search">Book Catalogue: ISBN Search</string>
+    <string name="all_books">Todos los libros</string>
+    <string name="isbn_found">ISBN Escaneado. Buscando en Internet.</string>
+    <string name="title_isbn_search">Catálogo de Libros: Busqueda por ISBN</string>
     <string name="title_manage_bs">Book Catalogue: Manage Bookshelves</string>
     <string name="title_edit_bs">Book Catalogue: Edit Bookshelf</string>
-    <string name="book_exists">The book you are trying to add already exists. .</string>
-    <string name="search_label">Search for Books</string>
-    <string name="search_hint">Search Author or Title</string>
-    <string name="book_not_found">The scanned book was not found. You can sometimes find the correct barcode on the inside front cover. Otherwise please enter the details manually.</string>
+    <string name="book_exists">El libro que tratas de agregar ya existe.</string>
+    <string name="search_label">Búsqueda por Libro</string>
+    <string name="search_hint">Búsqueda por Autor o Título</string>
+    <string name="book_not_found">No hemos encontrado el libro que escaneaste. Algunas veces, el código de barras correcto está dentro de la portada. Si no es así, por favor introduce los datos manualmente.</string>
     <string name="series_num">#</string>
-    <string name="unable_to_connect_google">Unable to Connect to Google Books</string>
-    <string name="export_data">Export Books</string>
-    <string name="export_complete">Export (to SDCard) of data complete. </string>
-    <string name="import_data">Import Books</string>
+    <string name="unable_to_connect_google">No podemos conectar con Google Books</string>
+    <string name="export_data">Exportar Libros</string>
+    <string name="export_complete">Exportación de datos (Tarjeta SD) completa. </string>
+    <string name="import_data">Importar Libros</string>
     <string name="import_alert">Warning. Importing data may update existing book records with new information if the uuid column is not present and the id in the import file is the same as an existing id. This is usually fine if you changed a field in an exported file. If you created a new book record, or are importing someone elses books, ensure the uuid field is present or the id field is blank.</string>
-    <string name="export_failed">ERROR: Export (to SDCard) of data failed. </string>
-    <string name="import_failed">ERROR: Import of data (from SDCard) failed. Is the file in the correct place?</string>
-    <string name="search_title">Book Catalogue: Search Results</string>
-    <string name="results_found">Results Found</string>
+    <string name="export_failed">ERROR: Exportación de datos (tarjeta SD) fallida. </string>
+    <string name="import_failed">ERROR: Importación de datos (desde tarjeta SD) fallida. ¿El archivo está en el lugar indicado?</string>
+    <string name="search_title">Catálogo de Libros: Resultados de la Búsqueda</string>
+    <string name="results_found">Resultados Encontrados</string>
     <string name="administration_label">Administration Functions</string>
     <string name="administration_title">Book Catalogue: Administration</string>
     <string name="menu_administration">Admin</string>
-    <string name="install_scan">To scan your books via the ISBN barcode, you must install one of the Zxing, pic2shop or Google Googles barcode scanner applications.</string>
+    <string name="install_scan">Para escanear tus libros con el ISBN del código de barras, primero debes instalar aplicaciones de escáner como Zxing, pic2shop o Google Googles.</string>
     <string name="install_scan_title">Install Barcode Scanner</string>
-    <string name="version_number">Version Number:</string>
-    <string name="donate">If you would like to support the development of this application, please donate using a my Amazon Wishlist or the paypal button below. Being in Australia means I cannot publish a &quot;paid&quot; version. :-) </string>
-    <string name="unable_to_connect_amazon">Unable to Connect to Amazon</string>
-    <string name="upgrade_title">Since your last upgrade</string>
-    <string name="edit_book">Edit Book</string>
-    <string name="edit_book_notes">My Comments</string>
+    <string name="version_number">Número de Versión:</string>
+    <string name="donate">Si quieres apoyar el desarrollo de esta aplicación, por favor hazlo a través de mi Wishlist en Amazon o con el botón de Paypal, más abajo. Estar en Australia significa que no puedo ofrecer una versión &quot;de pago&quot;. :-) </string>
+    <string name="unable_to_connect_amazon">No podemos conectar con Amazon</string>
+    <string name="upgrade_title">Desde tu última actualización</string>
+    <string name="edit_book">Editar Libro</string>
+    <string name="edit_book_notes">Mis Comentarios</string>
     <string name="edit_book_friends">Loan Book</string>
-    <string name="unknown_error">An unknown error occurred</string>
-    <string name="notes">Notes</string>
-    <string name="loaned_to">This book has been loaned to:</string>
+    <string name="unknown_error">Ha ocurrido un error desconocido</string>
+    <string name="notes">Notas</string>
+    <string name="loaned_to">Este libro ha sido prestado a:</string>
     <string name="nobody">Nobody</string>
     <string name="loan_to">Loan book to:</string>
-    <string name="returned">Returned</string>
-    <string name="name">Name</string>
-    <string name="webpage_label">Webpage:</string>
-    <string name="sourcecode_label">Source Code:</string>
-    <string name="contact_label">Contacts:</string>
+    <string name="returned">Devuelto</string>
+    <string name="name">Nombre</string>
+    <string name="webpage_label">Sitio Web:</string>
+    <string name="sourcecode_label">Código Fuente:</string>
+    <string name="contact_label">Contactos:</string>
     <string name="webpage">https://wiki.github.com/eleybourn/Book-Catalogue/</string>
     <string name="sourcecode">https://github.com/eleybourn/Book-Catalogue</string>
     <string name="helppage">https://github.com/eleybourn/Book-Catalogue/wiki/Help</string>
     <string name="contact1">eleybourn@gmail.com</string>
     <string name="contact2">philip.warner@rhyme.com.au</string>
-    <string name="donate_label">Donate</string>
-    <string name="about_label">About this App</string>
+    <string name="donate_label">Donar</string>
+    <string name="about_label">Acerca de la aplicación</string>
     <string name="administration_functions_label">Functions</string>
-    <string name="sortby_popup_title">Sort By</string>
-    <string name="sortby_author">Sort by Author</string>
-    <string name="sortby_title">Sort by Title</string>
-    <string name="sortby_series">Sort by Series</string>
-    <string name="sortby_loan">Sort by Loaned</string>
-    <string name="sortby_unread">Sort by Unread</string>
-    <string name="sortby_genre">Sort by Genre</string>
-    <string name="list_price">List Price</string>
-    <string name="date_started_reading">Date Started Reading</string>
-    <string name="date_finished_reading">Date Finished Reading</string>
-    <string name="update_fields">Automatically Update Fields</string>
-    <string name="select_fields_to_update">Select Fields to Update</string>
-    <string name="select_fields_to_update_help">Selected fields will be updated from the internet. Unselected fields will remain unchanged.</string>
+    <string name="sortby_popup_title">Organizar por</string>
+    <string name="sortby_author">Organizar por Autor</string>
+    <string name="sortby_title">Organizar por Título</string>
+    <string name="sortby_series">Organizar por Serie</string>
+    <string name="sortby_loan">Organizar por Préstamos</string>
+    <string name="sortby_unread">Organizar por No Leídos</string>
+    <string name="sortby_genre">Organizar por Género</string>
+    <string name="list_price">Lista de Precios</string>
+    <string name="date_started_reading">Fecha del comienzo de lectura</string>
+    <string name="date_finished_reading">Fecha del final de lectura</string>
+    <string name="update_fields">Actualizar automáticamente los campos</string>
+    <string name="select_fields_to_update">Seleccionar campos a actualizar</string>
+    <string name="select_fields_to_update_help">Los campos seleccionados serán actualizados desde Internet. Los campos que no se seleccionaron permanecerán sin cambios</string>
     <string name="overwrite_thumbnail">This will update the selected fields as shown, but Thumbnails can optionally be downloaded for ALL books.\n\nDo you want to overwrite all existing thumbnails? Warning, this may take a long time. </string>
-    <string name="yes">Yes</string>
+    <string name="yes">Sí</string>
     <string name="no">No</string>
     <string name="ok">OK</string>
-    <string name="download_thumbs">Thumbnails are being downloaded in the background</string>
-    <string name="search_fail">Searching for the book failed. Please check your network settings.</string>
+    <string name="download_thumbs">Las miniaturas están siendo descargadas en segundo plano</string>
+    <string name="search_fail">La búsqueda del libro ha fallado. Por favor, revisa tu configuración de red.</string>
     <string name="search_exception">Search failed while %1$s: %2$s</string>
     <string name="hello">Book Catalogue!</string>
-    <string name="menu_delete_thumb">Delete Thumbnail</string>
-    <string name="help">Help</string>
+    <string name="menu_delete_thumb">Borrar Miniatura</string>
+    <string name="help">Ayuda</string>
     <string name="filler_help_text">Full online application help will come soon. </string>
     <string name="menu_manage_fields">Manage Field Visibility</string>
     <string name="manage_fields_help">Selected fields are visible in the add/edit book screens. Unselected fields are hidden.</string>
     <string name="edit_book_anthology">Anthology Titles</string>
     <string name="amazon_wishlist">Amazon Wishlist</string>
-    <string name="same_author">All stories in this anthology are written by the same author</string>
-    <string name="menu_delete_anthology">Delete Title from Anthology</string>
-    <string name="is_anthology">Is this book an Anthology?</string>
+    <string name="same_author">Todas las historias de esta antología fueron escritas por el mismo autor</string>
+    <string name="menu_delete_anthology">Borrar título de la antología</string>
+    <string name="is_anthology">¿Este libro es una antología?</string>
     <string name="populate_anthology_titles">Automatically Populate Titles (EXPERIMENTAL)</string>
     <string name="automatic_population_failed">Automatic Population of Titles Failed</string>
-    <string name="anthology">Anthology</string>
+    <string name="anthology">Antología</string>
     <string name="anthology_confirm">Please confirm that these anthology titles are (mostly) correct</string>
-    <string name="anthology_save">Save</string>
-    <string name="anthology_add">Add</string>
-    <string name="menu_add_thumb_photo">From Camera&#8230;</string>
-    <string name="thumbnail">Cover Thumbnail</string>
-    <string name="menu_rotate_thumb">Rotate Thumbnail&#8230;</string>
-    <string name="menu_rotate_thumb_cw">Rotate Clockwise</string>
-    <string name="menu_rotate_thumb_ccw">Rotate Anti-Clockwise</string>
-    <string name="menu_rotate_thumb_180">Rotate 180 deg</string>
+    <string name="anthology_save">Guardar</string>
+    <string name="anthology_add">Añadir</string>
+    <string name="menu_add_thumb_photo">Desde la Cámara&#8230;</string>
+    <string name="thumbnail">Miniatura de la Portada</string>
+    <string name="menu_rotate_thumb">Girar la Miniatura&#8230;</string>
+    <string name="menu_rotate_thumb_cw">Rotar en el sentido del reloj</string>
+    <string name="menu_rotate_thumb_ccw">Rotar en sentido opuesto al reloj</string>
+    <string name="menu_rotate_thumb_180">Rotar 180 grados</string>
     <string name="menu_zoom_thumb">Zoom Thumbnail</string>
     <string name="help_title_nutshell">In a Nutshell</string>
     <string name="signed">Has this book been signed</string>
@@ -136,29 +136,29 @@
     <string name="location_of_book">Location of the book</string>
     <string name="duplicate_title">Duplicate Book</string>
     <string name="duplicate_book_title">Duplicate Book</string>
-    <string name="duplicate_book_message">The book you are trying to add already exists in the database, are you sure you want to add another copy?</string>
-    <string name="menu_add_thumb_gallery">From Gallery&#8230;</string>
-    <string name="backup_request">Would you like to backup your database to your sdcard</string>
+    <string name="duplicate_book_message">El libro que estás tratando de agregar ya existe en la base de datos. ¿Quieres añadir otra copia?</string>
+    <string name="menu_add_thumb_gallery">Desde Galería&#8230;</string>
+    <string name="backup_request">¿Quieres respaldar la base de datos en tu tarjeta SD?</string>
     <string name="backup_title">Backup?</string>
-    <string name="searching_amazon_books">Searching Amazon</string>
-    <string name="searching_google_books">Searching Google Books</string>
-    <string name="searching_library_thing">Searching LibraryThing</string>
+    <string name="searching_amazon_books">Buscando en Amazon</string>
+    <string name="searching_google_books">Buscando en Google Books</string>
+    <string name="searching_library_thing">Buscando en LibraryThing</string>
     <string name="bookshelf_title">Select bookshelves for this book</string>
     <string name="select_bookshelves">Select Bookshelves</string>
-    <string name="format">Format</string>
+    <string name="format">Formato</string>
     <string name="format1">Paperback</string>
     <string name="format2">Hard Cover</string>
     <string name="format3">eBook</string>
-    <string name="format4">Audiobook</string>
+    <string name="format4">Audiolibro</string>
     <string name="format5">Guide / Companion</string>
     <!-- NOTE: Adding a new format will involve changing code that references this list -->
-    <string name="description">Description</string>
-    <string name="genre">Genre</string>
+    <string name="description">Descripción</string>
+    <string name="genre">Género</string>
     <string name="auto_update">Would you like to automatically update the following fields now \n* Genre \n* Description \n* Thumbnails\n\n If you select Cancel you can always run this again from the Administration page</string>
     <string name="notset">Not Set</string>
-    <string name="menu_search">Search Books</string>
-    <string name="menu_insert_name">Add by Name</string>
-    <string name="isbn_name_search_help">Adding books by ISBN is much more accurate than adding by author and title and is generally preferred. Please remember you can sometimes find the correct barcode on the inside front cover. \n\n</string>
+    <string name="menu_search">Buscar Libros</string>
+    <string name="menu_insert_name">Agregar por Nombre</string>
+    <string name="isbn_name_search_help">Agregar los libros por ISBN suele ser más preciso que añadirlos por autor y título, por lo que generalmente se recomienda hacerlo. Por favor, recuerda que muchas veces el código de barras correcto está dentro de la portada. \n\n</string>
     <string name="help_click_here">Please click here to access the online help pages</string>
     <string name="backup_database">Backup Database</string>
     <string name="vldt_unable_to_get_value">Unable to get value for \'%s\'</string>
@@ -447,22 +447,26 @@
     										\n\nIf no styles are ticked, then all styles will be shown.
     										\n\nIt is also possible to re-order the items by dragging the icon at the extreme right of each row.
     										\n\nClicking anywhere else in a row will allow you to edit the details of a specific style (or clone it, if 
-    										it is a built-in style).</string>
+    										it is a built-in style).
+</string>
     <string name="hint_booklist_style_groups">You can use this screen to modify the hiearchy of headings for a specific book list style.
     										\n\nA green tick indicates the heading will be shown in the list, and a red cross indicates it will not be shown.
     										Clicking on a green tick will turn it into a cross, and vice-versa.
-    										\n\nYou can re-order the hierarchy by dragging the icon at the extreme right of each row up or down.</string>
+    										\n\nYou can re-order the hierarchy by dragging the icon at the extreme right of each row up or down.
+</string>
     <string name="hint_booklist_style_properties">You can use this screen to set the characteristics of a specific book list style.
     										\n\nYou can change the name, edit the groupings to change the hierarchy, and adjust a variety of
     										other settings to build a style that you find useful.
     										\n\nIt is also possible to use \'Book Filters\' to modify the selection of books that will be displayed in
-    										the list. eg. to only retrieve books you have not read yet.</string>
+    										the list. eg. to only retrieve books you have not read yet.
+</string>
     <string name="hint_booklist_global_properties">You can use this screen to set the default characteristics of all book list styles.
     										\n\nMost properties can be overridden by individual styles, but the default values are
     										defined here.
     										\n\nYou can change the background, change how lists are displayed at startup, and adjust a variety of
     										other settings that will be applied to all your styles when possible.
-    										\n\nYou can also edit the styles menu, and the styles themselves from here.</string>
+    										\n\nYou can also edit the styles menu, and the styles themselves from here.
+</string>
     <string name="preferred_styles">Preferred styles</string>
     <string name="edit_style_colon_name">Edit style: %1$s</string>
     <string name="add_style">Add style</string>
@@ -712,11 +716,13 @@
 
     <!-- Hint text displayed when user enters the book listw -->
     <string name="hint_view_only_book_details">When you click on an item in this list, you can now choose to go to non-editable book details view. 
-See "Other Preferences" for the relevant setting.</string>
+See "Other Preferences" for the relevant setting.
+</string>
 
     <!-- Hint text displayed when user enters the 'read-only' book view -->
     <string name="hint_view_only_help">This is the non-editable book details screen; you can fling/swipe left or right to navigate to other books, 
-and you can edit the book via the options menu using the menu button or overflow menu icon.</string>
+and you can edit the book via the options menu using the menu button or overflow menu icon.
+</string>
 
     <!-- This is the heading of the 'Details' tab when editing a book. It needs to be short. "Book Details" is too long. -->
     <string name="details">Details</string>
